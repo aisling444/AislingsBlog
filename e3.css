@@ -1,67 +1,81 @@
 body {
+  background-color: #F6F1F1;
+  color: #39383b;
   margin: 0;
-  background-color: #f6f6f6;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
 }
 
-.header {
+header {
+  background-color: #e3ddff;
   padding: 30px;
   text-align: center;
-  background: white;
-  color: black;
-  font-size: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-h1 {
-  font-family: "Brush Script MT";
+
+header h1 {
+  font-size: 3rem;
+  margin: 0;
+  color: #39356c;
+  font-family: "Arial";
   letter-spacing: 5px;
 }
-p1 {
-  font-size: 20px;
-  font-family: Arial;
+
+header h2 {
+  font-size: 1rem;
+  color: #9990c2;
+  font-family: "Arial Narrow";
+  letter-spacing: 4px;
 }
-.topnav {
-  background-color: #f6f6f6;
-  overflow: hidden;
+
+nav {
+  background-color: #9990c2;
+  padding: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.topnav a {
-  float: left;
-  color: #555555;
-  text-align: center;
-  padding-bottom: 14px;
-  padding-top: 14px;
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
   text-decoration: none;
-  font-size: 17px;
-  font-family: Arial;
+  font-weight: bold;
+  transition: color 0.3s;
 }
-.topnav a:hover {
-  background-color: #a8a7a7;
-  color: black;
+
+nav ul li a:hover {
+  color: #e3ddff;
 }
-.topnav a.active {
-  background-color: #a8a7a7;
-  color: black ;
+
+p {
+  font-family: Serif;
+  font-size: 18px;
+  padding: 15px;
+  color: #3a2c57;
 }
+
 .card {
   background-color: white;
-  padding: 20px;
-  margin: 20px;
-  font-family: Arial;
-}
-div.gallery {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
+footer {
+  background-color: #9990c2;
+  color: white;
+  padding: 1rem;
   text-align: center;
 }
