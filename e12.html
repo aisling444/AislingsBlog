@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aisling's Blog</title>
+  <link rel="stylesheet" href="css/e6.css">
+  <script src="script.js" defer></script>
+</head>
+
+<header>
+  <div class="header-content">
+    <h1>Aisling's Blog</h1>
+    <h2>CS4403 Development Diary</h2>
+  </div>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html" style="width: 24%">Home</a></li>
+    <li><a href="myposts.html" style="width: 24%">My Posts</a></li>
+    <li><a href="gallery.html" style="width: 24%">Gallery</a></li>
+    <li><a href="am.html" style="width: 24%">About Me</a></li>
+  </ul>
+</nav>
+<div class="card">
+  <h3 style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Cutscenes</h3>
+  <h5 style="text-align: center; color: #9990c2; font-family: 'Arial', sans-serif">Apr 11, 2025</h5>
+  <p style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Entry 12</p>
+
+  <p>This week, I focused on creating the cutscenes for the game, and I found it to be one of the more challenging tasks
+    I’ve taken on so far. Zuzanna had recommended that I work on a 1920×1080 canvas to match the resolution needed for Unity,
+    but I quickly realised that I couldn’t replicate our usual pixelated art style at that scale. I tried multiple approaches
+    but struggled to get the desired look. I began by using a pixel background to draw the shapes pixel by pixel, but this did not work
+    due to the large size of the canvas. I then tried to use a square lineart tool to draw the shapes, but this was a very time consuming
+    process and the lines did not line up perfectly. However, when drawing the buttons for the title screen, I did use this method. I
+  felt that this did not look right so I also applied the pixel filter to this layer.</p>
+
+    <p>Eventually, I decided to draw the scenes as I normally would and then apply a pixel filter to each layer afterward. While I’m not completely
+      satisfied with the final result, I think this is the best I can manage at the moment with the tools and time I have. It was a good learning
+      experience, even if the outcome wasn’t exactly what I envisioned.</p>
+
+    <p>To make implementation easier, I uploaded both the full title image and the individual layers to GitHub. I assume the button images will need to
+      be applied separately in Unity, though I’m unsure of the exact steps for that. Thankfully, Jane volunteered to handle the coding for the clickable
+      title screen buttons, so I’m hoping we’ll be able to figure it out between us.</p>
+
+  <p>Zuzanna and I also discussed how I would go about creating the cutscenes. Originally, we had planned to have cutscenes that would include detailed
+  backgrounds and more detailed versions of the characters. Due to time constraints and the issues I had creating the title screen, we decided the best way
+  to implement the scenes would be for the character to simply appear on the screen with a speech bubble. As Caithlin had already finished her animations,
+  she volunteered to create these speech bubbles. She has not yet started on this task as she is unsure what to write in the speech bubbles. I am also
+  unsure what to write, as the cutscences were mainly Zuzanna's idea and I do not want to stray too far from her vision. This is something
+  I intend on tackling at the next team meeting.</p>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 65%" href="title%20scrren.png">
+      <img src="title%20scrren.png" alt="title screen" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Title screen.</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 65%" href="titletowner.png">
+      <img src="titletowner.png" alt="title screen" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Title screen background.</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 85%" href="title%20buttons.png">
+      <img src="title%20buttons.png" alt="title screen" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Title screen buttons.</div>
+  </div>
+
+  <div class="gallery">
+    <img src="BallroomFloor.png" alt="potion" style="display: block; margin-right: auto;
+   margin-left: auto; width: 500px; height: 500px;">
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Zuzanna's completed ballroom.</div>
+  </div>
+
+
+</div>
+<footer>
+  <p>&copy; 2025 Aisling's Blog.</p>
+</footer>
+
+</body>
+</html>
+
+
+

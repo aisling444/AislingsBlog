@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aisling's Blog</title>
+  <link rel="stylesheet" href="css/e6.css">
+  <script src="script.js" defer></script>
+</head>
+
+<header>
+  <div class="header-content">
+    <h1>Aisling's Blog</h1>
+    <h2>CS4403 Development Diary</h2>
+  </div>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html" style="width: 24%">Home</a></li>
+    <li><a href="myposts.html" style="width: 24%">My Posts</a></li>
+    <li><a href="gallery.html" style="width: 24%">Gallery</a></li>
+    <li><a href="am.html" style="width: 24%">About Me</a></li>
+  </ul>
+</nav>
+<div class="card">
+  <h3 style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">The Final Stretch</h3>
+  <h5 style="text-align: center; color: #9990c2; font-family: 'Arial', sans-serif">Apr 19, 2025</h5>
+  <p style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Entry 13</p>
+
+  <p>This week was Easter break, so unfortunately, we weren’t able to have a team meeting as most people had gone home.
+    I felt very out of the loop regarding where we were in the game’s development. With the deadline rapidly approaching and
+    little communication from the group, I was feeling incredibly stressed and overwhelmed.</p>
+
+    <p>By Monday, I felt like I was at my wit's end, so I sent a fairly harsh message to the group chat expressing how frustrated
+      I was with our lack of communication and coordination. I explained that, at this point, I honestly didn’t believe we would have a
+      finished game in time. I also reiterated what my lecturer had told me about the dev diary. I told the group that
+      I’d love to finish the game if everyone was willing to put in the effort, but that I couldn’t force anyone to do their share, and if the
+      game wasn’t completed, I would be transparent about that in my final dev diary. Initially, both Jane and Niamh opened the message but didn’t
+      reply, which made me feel even more discouraged. However, later that day Jane responded, saying she planned to finish her work that week.
+      She mentioned she was working on the collection system for the power-up items but was having a small issue with the items disappearing once
+      collected. The next day, Niamh replied and said she had finished the first three puzzles as well as the music. I apologised for the tone of my
+      earlier message, and we all agreed to give the project a final push this week and do our best. As of Saturday, April 19th, I still haven’t
+      received any updates from Luigi.</p>
+
+  <p>The silence in the group chat throughout the week made me feel once again like the team was starting to disengage. I brought this up again, and
+    Jane reassured me that she had been working consistently on most of the game’s code and that we should have a functioning game by the end of the week.
+    I also voiced my concerns about how we would merge all of our work, especially since the code was being written by different people who hadn’t
+    really collaborated or checked in with each other. Caithlin pointed out that most of us didn’t really understand what the others were doing, which
+    led to everyone working pretty independently, which I completely agreed with, and I recognise that I’m guilty of that too. As producer, I should have
+    made a stronger effort to connect the dots between everyone’s roles.</p>
+
+    <p>To help with this, Jane and I agreed to meet on Tuesday to finalise the project together. However, due to the lack of updates from both Niamh
+      and Luigi, I’m still unsure whether the puzzles or room randomisation will actually be implemented in the game. Regardless, I’m hopeful that we’ll
+      have some sort of game to submit for our final grade, which is better than having nothing at all.</p>
+
+    <p>As a team, we also made the decision to scrap the final dungeon level due to time constraints. Instead, we’re going to focus on polishing the
+      first three levels and making sure they’re working as smoothly as possible.</p>
+
+    <p>This week, I worked on a loading screen to appear between each level. I repeated the same process I used for the title screen.
+      The design features the princess descending a staircase, visually implying that she’s descending further into the tower. I
+      decided to use the other side profile of the princess, with the princesses head facing forwards to add more detail to the scene. Originally, I
+      felt that the scene did not look right for some reason. Zuzanna pointed out that the colours of the princess did not reflect the dark
+      atmosphere of the scene which made me realise I had been using a version of the princess I previously drew. To fix this I simply added a clipping
+      layer with the colour of the wall and lowered the opacity. This made the princess fit much better into the scene.
+      Like with the cutscenes, I uploaded the full image and each individual layer to GitHub to help with animating it later in Unity.
+    Caithlin is still in the process of animating this.</p>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 65%" href="cutscenes.png">
+      <img src="cutscenes.png" alt="title screen" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Loading screen.</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 65%" href="wall%20cs.png">
+      <img src="wall%20cs.png" alt="wall" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Loading screen background.</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 65%" href="stairs%20cs.png">
+      <img src="stairs%20cs.png" alt="stairs" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Loading screen stairs.</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 65%" href="torches%20cs.png">
+      <img src="torches%20cs.png" alt="torches" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Loading screen torches.</div>
+  </div>
+
+  <div class="gallery">
+    <a target="_blank" style= "display: block; margin-left: auto; margin-right: auto; width: 65%" href="princess%20cs.png">
+      <img src="princess%20cs.png" alt="princess" width="800" height="400">
+    </a>
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">Loading screen princess.</div>
+  </div>
+
+  <div class="gallery">
+    <img src="tiles.png" alt="potion" style="display: block; margin-right: auto;
+   margin-left: auto; width: 500px; height: 500px;">
+    <div class="desc" style="text-align: center; color: #39356c; font-family: 'Arial', sans-serif">This is a showcase of bedroom,
+      kitchen and ballroom tiles and a ballroom floor in order. By Zuzanna.</div>
+  </div>
+
+
+</div>
+<footer>
+  <p>&copy; 2025 Aisling's Blog.</p>
+</footer>
+
+</body>
+</html>
+
+
